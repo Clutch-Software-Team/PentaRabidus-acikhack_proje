@@ -54,5 +54,7 @@ yalnızca ürüne odaklı yorumları alıcıya gösteren ve en beğenilen yoruml
 
 **!Kod içerisindeki yorum satırları ile programın kullanımı açıklanmıştır**
 
+**!Kullanmadan önce kod içerisindeki dosya yollarını kişisel dosya yollarınız ile değiştirmeyi unutmayınız.** 
+
 
 
