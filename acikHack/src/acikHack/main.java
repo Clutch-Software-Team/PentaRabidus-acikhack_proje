@@ -23,6 +23,8 @@ import java.io.IOException;
 import java.awt.event.ActionListener;
 import java.awt.event.ActionEvent;
 import javax.swing.ImageIcon;
+import javax.swing.border.LineBorder;
+import java.awt.Color;
 
 public class main extends JFrame {
 
@@ -65,8 +67,9 @@ public class main extends JFrame {
 		contentPane.setLayout(null);
 		
 		JTextArea textArea = new JTextArea();
+		textArea.setBorder(new LineBorder(new Color(0, 0, 0)));
 		textArea.setFont(new Font("Tahoma", Font.PLAIN, 15));
-		textArea.setBounds(12, 401, 775, 158);
+		textArea.setBounds(12, 401, 788, 158);
 		contentPane.add(textArea);
 		
 		/*
@@ -97,7 +100,7 @@ public class main extends JFrame {
 		lblNewLabel_1.setBounds(12, 169, 244, 20);
 		contentPane.add(lblNewLabel_1);
 		
-		JLabel lblYorumlarnSnflandrldktanSonra = new JLabel("Yorumlar\u0131n i\u015Flem g\u00F6rd\u00FCkten sonra kendi");
+		JLabel lblYorumlarnSnflandrldktanSonra = new JLabel("Yorumlar\u0131n s\u00FCzge\u00E7 i\u015Flemi g\u00F6rd\u00FCkten sonra kendi");
 		lblYorumlarnSnflandrldktanSonra.setFont(new Font("Tahoma", Font.PLAIN, 14));
 		lblYorumlarnSnflandrldktanSonra.setBounds(12, 214, 290, 26);
 		contentPane.add(lblYorumlarnSnflandrldktanSonra);
@@ -107,12 +110,12 @@ public class main extends JFrame {
 		lblPuanlamaSistemiIle.setBounds(12, 237, 244, 20);
 		contentPane.add(lblPuanlamaSistemiIle);
 		
-		JLabel lblYorumlarnSnfl = new JLabel("Yorumlar\u0131n i\u015Flem g\u00F6rd\u00FCkten sonra kelimelerin");
+		JLabel lblYorumlarnSnfl = new JLabel("Yorumlar\u0131n s\u00FCzge\u00E7 i\u015Flemi g\u00F6rd\u00FCkten sonra ");
 		lblYorumlarnSnfl.setFont(new Font("Tahoma", Font.PLAIN, 14));
 		lblYorumlarnSnfl.setBounds(12, 275, 290, 26);
 		contentPane.add(lblYorumlarnSnfl);
 		
-		JLabel lblErguvanIleDeerlendirilmesi = new JLabel("Erguvan ile de\u011Ferlendirilmesi");
+		JLabel lblErguvanIleDeerlendirilmesi = new JLabel(" Erguvan ile de\u011Ferlendirilmesi");
 		lblErguvanIleDeerlendirilmesi.setFont(new Font("Tahoma", Font.PLAIN, 14));
 		lblErguvanIleDeerlendirilmesi.setBounds(12, 298, 244, 20);
 		contentPane.add(lblErguvanIleDeerlendirilmesi);

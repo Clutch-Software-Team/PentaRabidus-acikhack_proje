@@ -75,7 +75,7 @@ public class acik {
 		//Yorumlarýn okunmaya ve iþlenmeye baþlamasý--------------------------------------------------------
 		try {
 			String line;
-			File dosya = new File("C:\\Users\\Muaz DERVENT\\eclipse-workspace\\acikHack\\src\\acikHack\\database.txt");////***********yorumlar.txt
+			File dosya = new File("C:\\Users\\Muaz DERVENT\\eclipse-workspace\\acikHack\\src\\acikHack\\dataset.txt");////***********yorumlar.txt
 			
 			FileOutputStream fos = new FileOutputStream(dosyaYolu);
 			OutputStreamWriter osw=new OutputStreamWriter(fos,"UTF-8");
